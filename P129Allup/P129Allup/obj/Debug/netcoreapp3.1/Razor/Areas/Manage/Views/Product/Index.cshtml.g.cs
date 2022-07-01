@@ -47,8 +47,15 @@ using P129Allup.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 7 "C:\Users\hamid.mammadov\Desktop\P129Allup\P129Allup\Areas\Manage\Views\_ViewImports.cshtml"
+using P129Allup.Areas.Manage.ViewModels.AccountViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e2ab38ae5721571c4f07d511e0e38bbfc3ea95cd", @"/Areas/Manage/Views/Product/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"41598555f0a82ae3ea9ad2253ce07e28ec9aa656", @"/Areas/Manage/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"853026cf1a32af61104a74a1dddf5b1016de9e6d", @"/Areas/Manage/Views/_ViewImports.cshtml")]
     public class Areas_Manage_Views_Product_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Product>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("btn btn-primary"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -89,7 +96,7 @@ using P129Allup.ViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n\r\n\r\n<div class=\"row mb-3 d-flex justify-content-between\">\r\n    <div class=\"col-lg-2\">\r\n        <h1>Products</h1>\r\n    </div>\r\n    <div class=\"col-lg-1\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e2ab38ae5721571c4f07d511e0e38bbfc3ea95cd5530", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e2ab38ae5721571c4f07d511e0e38bbfc3ea95cd5761", async() => {
                 WriteLiteral("Create");
             }
             );

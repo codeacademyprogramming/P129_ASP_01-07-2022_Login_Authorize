@@ -47,8 +47,15 @@ using P129Allup.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 7 "C:\Users\hamid.mammadov\Desktop\P129Allup\P129Allup\Areas\Manage\Views\_ViewImports.cshtml"
+using P129Allup.Areas.Manage.ViewModels.AccountViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8deb4a71486e3abf64430d1e34bf4ffe7e9544ea", @"/Areas/Manage/Views/Shared/_CategoryindexPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"41598555f0a82ae3ea9ad2253ce07e28ec9aa656", @"/Areas/Manage/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"853026cf1a32af61104a74a1dddf5b1016de9e6d", @"/Areas/Manage/Views/_ViewImports.cshtml")]
     public class Areas_Manage_Views_Shared__CategoryindexPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<PageNatedLisd<Category>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("img-fluid"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -127,7 +134,7 @@ using P129Allup.ViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n            <td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8deb4a71486e3abf64430d1e34bf4ffe7e9544ea8512", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8deb4a71486e3abf64430d1e34bf4ffe7e9544ea8743", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -187,7 +194,7 @@ WriteAttributeValue("", 736, category.IsDeleted ? "red":"green", 736, 37, false)
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n            <td>\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8deb4a71486e3abf64430d1e34bf4ffe7e9544ea11644", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8deb4a71486e3abf64430d1e34bf4ffe7e9544ea11875", async() => {
                 WriteLiteral("Update");
             }
             );
@@ -232,7 +239,7 @@ WriteAttributeValue("", 736, category.IsDeleted ? "red":"green", 736, 37, false)
 #line hidden
 #nullable disable
             WriteLiteral("                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8deb4a71486e3abf64430d1e34bf4ffe7e9544ea14688", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8deb4a71486e3abf64430d1e34bf4ffe7e9544ea14919", async() => {
                 WriteLiteral("Restore");
             }
             );
@@ -300,7 +307,7 @@ WriteAttributeValue("", 736, category.IsDeleted ? "red":"green", 736, 37, false)
 #line hidden
 #nullable disable
             WriteLiteral("                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8deb4a71486e3abf64430d1e34bf4ffe7e9544ea19489", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8deb4a71486e3abf64430d1e34bf4ffe7e9544ea19720", async() => {
                 WriteLiteral("Delete");
             }
             );

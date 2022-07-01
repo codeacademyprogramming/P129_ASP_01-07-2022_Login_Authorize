@@ -184,3 +184,4 @@ C:\Users\hamid.mammadov\Desktop\P129Allup\P129Allup\bin\Debug\netcoreapp3.1\Micr
 C:\Users\hamid.mammadov\Desktop\P129Allup\P129Allup\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\hamid.mammadov\Desktop\P129Allup\P129Allup\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationPartial.cshtml.g.cs
 C:\Users\hamid.mammadov\Desktop\P129Allup\P129Allup\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\hamid.mammadov\Desktop\P129Allup\P129Allup\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Account\Login.cshtml.g.cs

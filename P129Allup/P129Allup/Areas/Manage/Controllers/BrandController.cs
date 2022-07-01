@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using P129Allup.DAL;
 using P129Allup.Models;
@@ -11,6 +12,7 @@ using System.Threading.Tasks;
 namespace P129Allup.Areas.Manage.Controllers
 {
     [Area("manage")]
+    [Authorize(Roles ="SuperAdmin,Admin")]
     public class BrandController : Controller
     {
         private readonly AppDbContext _context;
